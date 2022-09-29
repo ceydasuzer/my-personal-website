@@ -1,0 +1,15 @@
+.header-bg-img .container {
+    position: absolute;
+    margin: 1.5rem;
+    width: auto;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 1rem;
+}
+
+nav a {
+    font-size: larger;
+    font-weight: 400;
+}

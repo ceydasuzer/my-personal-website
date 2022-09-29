@@ -1,0 +1,64 @@
+@import url(buttons.css);
+@import url(header.css);
+@import url(navbar.css);
+@import url(text-image.css);
+@import url(about-me-section.css);
+@import url(my-work-section.css);
+@import url(footer.css);
+@import url(timeline.css);
+
+:root  {
+    --main-color: #2a2e30;
+    --yellow: #f8cb2e;
+    --petrol: #006e7f;
+    --white: #ffff;
+    --orange: #F46530;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    letter-spacing: .2rem;
+    color: var(--main-color);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+h2, p, a {
+    display: inline-block;
+}
+
+a {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    text-decoration: none;
+    color: var(--white);
+}
+
+a:hover {
+    text-decoration: none;
+    color: var(--white);
+} 
+
+.active {
+    font-size: larger;
+    font-weight: 600;
+    color: var(--petrol) !important;
+}
+
+@media (max-width: 992px){
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+}
+
+
+
+
+
+

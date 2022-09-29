@@ -1,0 +1,21 @@
+.rectangle-btn {
+    color: var(--white);
+    padding: 20px;
+    border-radius: 2px;
+    background-color: var(--main-color);
+}
+
+.rectangle-btn:hover {
+    border: 2px var(--white) solid;
+}
+
+.yellow-btn {
+    background-color: var(--yellow);
+    border-radius: 29px;
+    padding: 20px;
+    border: none;
+}
+
+.yellow-btn:hover {
+    border: 2px var(--white) solid;
+}

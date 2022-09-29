@@ -1,0 +1,120 @@
+.header-bg-img {
+    background-image: url(../images/background.png);
+    min-height: 100vh;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    position: relative;
+}
+
+.header-div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.header-div h1 {
+    font-size: 4rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.header-div p {
+    display: inherit;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+@media (max-width: 1200px) {
+    .header-bg-img {
+        min-height: 700px;
+    }
+    .header-div {
+        top: 40%;
+        width: auto;
+    }
+}
+
+@media (max-width: 992px) {
+    .header-bg-img {
+        min-height: 500px;
+        background-position: right;
+    }
+
+    .header-div {
+        top: 30%;
+        width: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .header-bg-img {
+        min-height: 400px;
+        background-position: right top;
+    }
+
+    .header-div {
+        top: 25%;
+        left: 50%;
+        width: auto;
+    }
+
+    .header-div h1 {
+        font-size: 3rem;
+        font-weight: 400;
+    }
+}
+
+@media (max-width: 576px) {
+    .header-bg-img {
+        background-image: url(../images/orange-background.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100vw;
+        background-position: center;
+        position: relative;
+    }
+
+    .header-div {
+        top: 25%;
+        left: 50%;
+        width: 20%;
+    }
+
+    .header-div h1 {
+        font-size: 2.5rem;
+        font-weight: 400;
+    }
+
+    .header-div p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 420px) {
+    .header-bg-img {
+        background-image: url(../images/orange-background.png);
+        height: 50vh;
+        width: 126vw;
+    }
+
+    .header-div {
+        top: 25%;
+        left: 65%;
+        width: auto;
+    }
+
+    .header-div h1 {
+        font-size: 2.5rem;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .header-div p {
+        font-size: 1rem;
+    }
+
+}
