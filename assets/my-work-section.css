@@ -1,0 +1,24 @@
+#my-work {
+    background-color: var(--white);
+    height: 85vh;
+} 
+
+@media (max-width: 768px){
+   #my-work {
+       margin-top: 110px;
+       height: 50vh;
+   }
+
+   #my-work .work-right{
+       position: absolute;
+       visibility: hidden;
+   }
+}
+
+@media (max-width: 576px){
+    #my-work {
+        margin: -120px auto 30px;
+        
+        height: 50vh;
+    }
+ }
